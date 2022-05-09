@@ -20,7 +20,7 @@ class Donor: public user{
       strcpy(dob, "");
       strcpy(bloodGrp, "");
     }
-		Donor(const char dID[], const char nic[], const char gnder[], const char dateofBrth[], const char bgrp[]):{
+		Donor(char pName[], char pAddress[], char pEmail[], int pPhone, const char dID[], const char nic[], const char gnder[], const char dateofBrth[], const char bgrp[]) : User (pName, pAddress, pEmail, pPhone, dID, nic, dateofBrth, bgrp){
       strcpy(donorID, dID);
       strcpy(NIC, nic);
       strcpy(gender, gnder);
