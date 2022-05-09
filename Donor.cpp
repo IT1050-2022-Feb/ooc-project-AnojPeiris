@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Donor{
+class Donor: public user{
 
 	protected:
 		char donorID[10];
@@ -20,7 +20,7 @@ class Donor{
       strcpy(dob, "");
       strcpy(bloodGrp, "");
     }
-		Donor(const char dID[], const char nic[], const char gnder[], const char dateofBrth[], const char bgrp[]){
+		Donor(const char dID[], const char nic[], const char gnder[], const char dateofBrth[], const char bgrp[]):{
       strcpy(donorID, dID);
       strcpy(NIC, nic);
       strcpy(gender, gnder);
