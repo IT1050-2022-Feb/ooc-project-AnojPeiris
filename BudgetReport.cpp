@@ -4,9 +4,20 @@ class BudgetReport{
 		float eventBudget[30];
 		
 	public:
-		BudgetReport();
-		BudgetReport(const char repno[], float amount);
-		void displayDetails();
-		float calcBudget();
-		~BudgetReport();
+		BudgetReport(){
+      strcpy(B_repNo,"");
+      eventBudget
+    }
+		BudgetReport(const char repno[], float amount[]){
+      
+    }
+		void displayDetails(){
+      
+    }
+		float calcBudget(){
+      
+    }
+		~BudgetReport(){
+      cout<<"Delete"<<endl;
+    }
 };
