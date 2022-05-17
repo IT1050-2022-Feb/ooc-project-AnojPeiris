@@ -4,14 +4,12 @@
 using namespace std;
 
 class Donor: public user{
-
 	protected:
 		char donorID[10];
 		char NIC[12];
 		char gender[6];
 		char dob[10];
 		char bloodGrp[4];
-
 	public:
 		Donor(){
       strcpy(donorID, "");
