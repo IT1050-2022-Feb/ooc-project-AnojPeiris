@@ -16,4 +16,5 @@ class Nurse : public User {
     void getNurseID() {
       cout << "Nurse ID : " << nurseID << endl;
     }
+    ~Nurse() {};
 };

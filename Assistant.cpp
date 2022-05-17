@@ -16,4 +16,5 @@ class Assistant : public User {
     void getEmpID(){
       cout << "Assistant ID : " << empID << endl;
     }
+    ~Assistant() {};
 };

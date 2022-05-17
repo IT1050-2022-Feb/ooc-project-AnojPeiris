@@ -14,7 +14,7 @@ class Healthreport {
         strcpy(hrepNO,hrNO);
       }
       void getReportDetails(){
-        cout<<"Helth report no"<< hrepNO <<endl;
+        cout<<"Helth report no:"<< hrepNO <<endl;
         }
       ~Healthreport(){}; 
 };

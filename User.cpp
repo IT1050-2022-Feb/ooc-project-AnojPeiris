@@ -27,4 +27,5 @@ class User {
       cout << "Enter Email : " << email << endl;
       cout << "Enter Phone Number : " << phoneNo << endl;
     }
+    ~User() {};
 };
