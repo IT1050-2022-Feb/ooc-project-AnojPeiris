@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cssr
+#include <cstring>
 
 using namespace std;
 
