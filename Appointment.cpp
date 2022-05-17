@@ -11,7 +11,7 @@ class appointment{
 	public:
 		appointment(){
 			strcpy(appNO,"");
-			strcpy(appLocation,"");	
+			strcpy(appLocation,"");
 			strcpy(appDate,"");
 		}
 		appointment(const char appointmentNO[], const char appointmentLO[], const char appointmentDate[]){
