@@ -11,7 +11,7 @@ class User {
   public:
     User(){
       strcpy (name, "");
-      strcpy (address, "");              : )
+      strcpy (address, "");
       strcpy (email, "");
       phoneNo = 0;
     };
