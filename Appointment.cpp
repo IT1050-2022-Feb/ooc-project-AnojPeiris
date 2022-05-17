@@ -14,7 +14,7 @@ class appointment{
 			strcpy(appLocation,"");	
 			strcpy(appDate,"");
 		}
-		appointment(const char appointmentNO[], const char appointmentLO[], const char appointmentDate[]){
+		appointment(const char appointmentNO[], const char appointmentLO[], const char         appointmentDate[]){
 			strcpy(appNO,appointmentNO);
 			strcpy(appLocation,appointmentLO);	
 			strcpy(appDate,appointmentDate);	

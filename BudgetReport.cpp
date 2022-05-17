@@ -20,4 +20,5 @@ class BudgetReport{
 		~BudgetReport(){
       cout<<"Delete"<<endl;
     }
+
 };

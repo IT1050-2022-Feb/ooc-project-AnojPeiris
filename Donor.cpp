@@ -11,7 +11,7 @@ class Donor: public user{
 		char gender[6];
 		char dob[10];
 		char bloodGrp[4];
-		
+
 	public:
 		Donor(){
       strcpy(donorID, "");
